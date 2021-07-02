@@ -1,0 +1,185 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.containerA {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.containerA span {
+  color: #A00404;
+  font-size: 24px;
+  line-height: 32px;
+  margin-left: 16px;
+}
+
+.containerB {
+  color: #FFFFFF;
+  background-color: #415165;
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
+
+.containerB span {
+  font-size: 24px;
+  line-height: 32px;
+  margin-left: 16px;
+}
+
+.header h1 {
+  font-size: 80px;
+  line-height: 106px;
+  border-bottom: 2px solid #000000;
+  margin-top: 37px;
+}
+
+.header img {
+  margin: 48px 0;
+}
+
+.header h2 {
+  font-size: 32px;
+  line-height: 43px;
+  border-bottom: 2px solid #000000;
+  margin-bottom: 16px;
+}
+
+.header .education {
+  margin: 72px 0px;
+}
+
+.header ul, .header p {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 24px;
+}
+
+.skillA {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skillA h2 {
+  width: 996px;
+  text-align: center;
+  font-size: 32px;
+  line-height: 45px;
+  border-bottom: 1px solid #FFFFFF;
+  margin-bottom: 45px;
+}
+
+.skillA ul {
+  font-size: 24px;
+  line-height: 36px;
+  border-left: 1px solid #FFFFFF;
+  padding-left: 24px;
+}
+
+.skillB h2 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 43px;
+  margin-top: 72px;
+  border-bottom: 2px solid #000000;
+}
+
+.skillB ul {
+  margin-top: 16px;
+  margin-bottom: 72px;
+  margin-left: 24px;
+  padding-left: 24px;
+  border-left: 1px solid #000000;
+}
+
+.skillB ul li {
+  font-size: 32px;
+  line-height: 45px;
+  margin-bottom: 24px;
+}
+
+.skillB ul p {
+  width: 642px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer h2 {
+  max-width: 1200px;
+  margin: auto;
+  font-size: 32px;
+  line-height: 45px;
+  border-bottom: 1px solid #FFFFFF;
+  margin-bottom: 32px;
+}
+
+.footer ul {
+  font-size: 32px;
+  line-height: 45px;
+  margin-bottom: 16px;
+}
+
+.footer img {
+  margin: 0px 12px;
+}
+/*# sourceMappingURL=all.css.map */
