@@ -1,6 +1,6 @@
 .container{
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
 }
 .titleA{
     @include fz-lh(32px, 43px);

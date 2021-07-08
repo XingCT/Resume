@@ -50,7 +50,7 @@ table {
 
 .container {
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .titleA {
@@ -136,12 +136,12 @@ body li {
 
 .skill .containerB {
   max-width: 996px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .skill .containerB ul {
   max-width: 220px;
-  margin: auto;
+  margin: 0 auto;
   margin-top: 36px;
   padding-left: 24px;
   border-left: 1px solid #FFFFFF;
