@@ -1,16 +1,14 @@
 .header{
     padding-top: 37px;
     h1{
-        font-size: 80px;
-        line-height: 106px;
+        @include fz-lh(80px, 106px);
         border-bottom: 2px solid #000000;
     }
     img{
         margin-top: 48px;
     }
     p{
-        font-size: 24px;
-        line-height: 36px;
+        @include fz-lh(24px, 36px);
         margin: 12px 0;
     }
 }
@@ -42,8 +40,7 @@
     }
     p{
         max-width: 642px;
-        font-size: 20px;
-        line-height: 30px;
+        @include fz-lh(20px, 30px);
         margin: 12px 0;
     }
     img{
