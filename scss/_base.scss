@@ -1,7 +1,10 @@
-span{
-    @include fz-lh(24px, 32px);
-    margin-left: 16px;
-}
-li{
-    @include fz-lh(24px, 36px);
+body{
+    font-family:sans-serif;
+    span{
+        @include fz-lh(24px, 32px);
+        margin-left: 16px;
+    }
+    li{
+        @include fz-lh(24px, 36px);
+    }
 }
